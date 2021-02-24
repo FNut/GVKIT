@@ -1,2 +1,2 @@
-# GVKITRB
-GodVille Kit on Ruby
+# GVKIT
+GodVille Kit
