@@ -57,12 +57,6 @@ if sel == ('3'):
 if sel == ('4'):
     print('Open source gv kit')
     print('1) GitHub')
-    print('2) VK')
-    print('3) GV API VK')
     aboutsel = input('Выберите номер: ')
     if aboutsel == ('1'):
         webbrowser.open('https://github.com/FNut')
-    if aboutsel == ('2'):
-        webbrowser.open('https://vk.com/fnutgit')
-    if aboutsel == ('3'):
-        webbrowser.open('https://vk.com/app7762679_586613193?ref=public_widget')
