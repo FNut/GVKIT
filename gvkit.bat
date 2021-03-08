@@ -15,7 +15,7 @@ echo 1) Foinution
 echo 2) API NO
 echo 3) API YES
 set /p apisel="Select Num: "
-if %apisel%==1 explorer https://godville.net/gods/api/foinution/c0f760f2eeeb"
+if %apisel%==1 explorer https://godville.net/gods/api/foinution/c0f760f2eeeb
 if %apisel%==2 goto apino
 if %apisel%==3 goto apiyes
 :apino
