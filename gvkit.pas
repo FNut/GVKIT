@@ -1,11 +1,12 @@
 ﻿Program gvkit;
 uses crt;
-var sel, apisel, websel : integer;
+var sel, apisel, websel, aboutsel : integer;
 var name, api : string;
 begin
   writeln('1) GodVille');
   writeln('2) API');
   writeln('3) Web Client');
+  writeln('4) About');
   write('Select Num: ');
   readln(sel);
   writeln('');
@@ -89,6 +90,17 @@ begin
       begin
         if (websel =9) then
           Exec('https://godville.net/help');
+      end;
+  end;
+  begin
+    if (sel = 4) then
+      writeln('1) GitHub');
+      write('Select Num: ');
+      readln(aboutsel);
+      writeln('');
+      begin
+        if (aboutsel = 1) then
+          Exec('https://github.com/fnut');
       end;
   end;
 end.
